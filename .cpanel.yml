@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/zqlprxjrmb/public_html/
+    - /bin/mkdir -p $DEPLOYPATH/assets
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp styles.css $DEPLOYPATH
+    - /bin/cp app.js $DEPLOYPATH
+    - /bin/cp assets/mark.jpeg $DEPLOYPATH/assets/
