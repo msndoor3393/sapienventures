@@ -1,12 +1,7 @@
 # Sapien Academy
 
-Standalone static website for `https://sapienacademy.live/`.
+Standalone static website files for https://sapienacademy.live/. In the Sapien Ventures GitHub repository, these files live in the `academy/` directory.
 
-## Publish with cPanel Git Version Control
+The repository-root `.cpanel.yml` deploys these files to `/home/zqlprxjrmb/sapienacademy.live/` alongside the Sapien Ventures site deployment. In cPanel Git Version Control, use **Update from Remote**, then **Deploy HEAD Commit**.
 
-The repository must include a `.cpanel.yml` deployment file and have no uncommitted changes on its deployment branch. Point the cPanel repository at the Academy document root and deploy the checked-out commit.
-
-Document root shown in cPanel for the Academy domain: `/home/zqlprxjrmb/sapienacademy.live/`.
-
-The site is plain HTML, CSS and JavaScript. No build command or server runtime is required.
-
+The site uses plain HTML, CSS and JavaScript; no build command or server runtime is required. The brand mark is served from the Sapien Ventures site.
