@@ -7,3 +7,6 @@ deployment:
     - /bin/cp styles.css $DEPLOYPATH
     - /bin/cp app.js $DEPLOYPATH
     - /bin/cp assets/mark.jpeg $DEPLOYPATH/assets/
+    - export ACADEMYPATH=/home/zqlprxjrmb/sapienacademy.live/
+    - /bin/mkdir -p $ACADEMYPATH
+    - /bin/cp academy/index.html academy/styles.css academy/app.js $ACADEMYPATH
