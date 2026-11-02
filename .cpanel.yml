@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/zqlprxjrmb/public_html/
+    - export DEPLOYPATH=/home/zqlprxjrmb/sapienventures.online/
     - /bin/mkdir -p $DEPLOYPATH/assets
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp styles.css $DEPLOYPATH
